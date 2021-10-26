@@ -3,7 +3,7 @@
 <body>
 
 <?php
-$txt = "PHP";
+$txt = "Fatih";
 
 echo "I love $txt!";
 
