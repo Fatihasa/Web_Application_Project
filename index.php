@@ -48,7 +48,7 @@
         
         $user = 'root';
         $pass = 'WebDevelopment';
-        $db = 'dataBase';
+        $db = 'gamechangerdb';
         
         $db = new mysqli('localhost', $user , $pass , $db) or die("Unable to connect");
         
