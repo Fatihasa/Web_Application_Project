@@ -20,7 +20,8 @@
               <div align="center"><p>Users Name</p> 
               <label for="name">Name (5 to 15 characters):</label>
            <input type="text" id="name" name="name" required
-          minlength="4" maxlength="5" size="20">
+            placeholder="name">
+          
           </div>
               </tr>
           </table>
@@ -40,7 +41,6 @@
       <li>User2</li>
     </div>
         </ul>
-        
         <?php
         $txt = "Fatih";
         
