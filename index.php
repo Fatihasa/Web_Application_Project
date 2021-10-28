@@ -15,7 +15,7 @@
     </head>
      <body>
       <div align="center"><p>Web Application Development</p> </div>
-      
+
           <table>
             <tr>
               <div align="center"><p>Navigation Bar</p> </div>
@@ -27,15 +27,7 @@
               </tr>
           </table>
       <h2></h2>
-      <div align="center">
-        <p>Navigation Bar</p>
-      </div>
-      <div align="center">
-        <p>Users Name</p>
-        <label for="name">Name (5 to 15 characters):</label>
-        <form action="add_user.php" method="POST">
-          <input type="text" id="name" name="user_name_input" required placeholder="name">
-      </div>
+      
     </tr>
   </table>
   <h2></h2>
