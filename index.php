@@ -10,7 +10,7 @@ body {
 }
   </style>
 </head>
-
+<h2>
 <body>
   <div align="center">
     <p>Web Application Development</p>
@@ -18,6 +18,7 @@ body {
 
   <table>
     <tr>
+    
       <div align="center">
         <p>Navigation Bar</p>
       </div>
@@ -31,7 +32,7 @@ body {
       </div>
     </tr>
   </table>
-  <h2></h2>
+  </h2>
 
   </tr>
   </table>
