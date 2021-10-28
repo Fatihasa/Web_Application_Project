@@ -5,12 +5,9 @@
   <title>A simple HTML document fatıh</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    table {
-      width: 300px;
-      background-color: black;
-      color: aliceblue;
-      border-collapse: collapse;
-    }
+body {
+  background-color: coral;
+}
   </style>
 </head>
 
