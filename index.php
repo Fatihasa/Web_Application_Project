@@ -27,7 +27,7 @@
       <h2></h2>
       <div align="center">
       <p>Add Users</p>
-      <button>Click me</button>
+      <button>Add me</button>
       </div>
       <div align="center">
       <p>Get Users</p>

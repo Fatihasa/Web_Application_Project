@@ -1,5 +1,5 @@
-h1 {
-  color: chocolate;
+title {
+  color: rgb(78, 30, 210);
   font-size: 1.3em;
   font-weight: normal;
 }
@@ -7,4 +7,12 @@ h1 {
 p {
   color: darkgreen;
 }
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
 
+input,
+label {
+  margin: .4rem 0;
+}
