@@ -19,8 +19,10 @@
               <div align="center"><p>Navigation Bar</p> </div>
               <div align="center"><p>Users Name</p> 
               <label for="name">Name (5 to 15 characters):</label>
-           <input type="text" id="name" name="name" required
+              <form action="add_user.php" method="POST">
+           <input type="text" id="name" name="user_name_input" required
           minlength="4" maxlength="5" size="20">
+          </form>
           </div>
               </tr>
           </table>
