@@ -18,10 +18,9 @@
             <tr>
               <div align="center"><p>Navigation Bar</p> </div>
               <div align="center"><p>Users Name</p> 
-              <label for="name">Name (5 to 15 characters):</label>
-              <form action="add_user.php" method="POST">
+               <form action="add_user.php" method="POST">
            <input type="text" id="name" name="user_name_input" required
-           placeholder="name">
+           placeholder="Name (5 to 15 characters)">
           </div>
               </tr>
           </table>
