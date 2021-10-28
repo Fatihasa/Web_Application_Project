@@ -1,11 +1,12 @@
-title {
+head {
   color: rgb(78, 30, 210);
   font-size: 1.3em;
   font-weight: normal;
 }
-
 p {
   color: darkgreen;
+  font-size: 30px;
+  
 }
 label {
   display: block;
