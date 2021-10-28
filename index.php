@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
       <title>A simple HTML document fatıh</title>
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="style.css">
       <style>
         table {
             width: 300px;
