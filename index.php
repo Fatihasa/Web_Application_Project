@@ -41,8 +41,10 @@ body {
 
   </div>
   <div align="center">
+    <form method="post">
     <p>Get Users</p>
-    <button>Get me</button>
+    <button type="submit" name="get_users">Get me</button>
+    </form>
   </div>
   <div align="center">
     <h3>Show the Users Lists</h3>
@@ -53,19 +55,29 @@ body {
   </ul>
 
   <?php
-  $txt = "Fatih";
 
-  echo "I love $txt!";
+    $user = 'root';
+    $pass = 'WebDevelopment';
+    $db = 'gamechangerdb';
 
-  $user = 'root';
-  $pass = 'WebDevelopment';
-  $db = 'gamechangerdb';
+    $conn = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");
+    
+    $result = mysqli_query( $conn , 'select * from users' );
+  
+    if(array_key_exists('get_users', $_POST)){
 
-  $db = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");
+      
 
-  echo "Data Base Connected";
+      while($rows=mysqli_fetch_assoc($result)){
+      
+      ?>
+        <tr>
+          <?php echo $rows['user_name']; ?>
+        </tr>
+    <?php
+      }
 
-  $db->close();
+    }
 
   ?>
 </body>
