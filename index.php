@@ -4,6 +4,12 @@
 <head>
       <title>A simple HTML document fatıh</title>
       <link rel="stylesheet" href="style.css">
+      <style>
+body {
+  background-color: coral;
+}
+
+</style>
       </head>
     <h2>
       
@@ -28,6 +34,7 @@
   <div align="center">
     <p>Add Users</p>
     <button type="submit">Add me</button>
+    
     </form>
   </div>
   <div align="center">
