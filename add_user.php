@@ -1,3 +1,3 @@
 <?
-    
+    echo "Butona basildi";
 ?>

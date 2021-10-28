@@ -22,14 +22,14 @@
               <form action="add_user.php" method="POST">
            <input type="text" id="name" name="user_name_input" required
           minlength="4" maxlength="5" size="20">
-          </form>
           </div>
               </tr>
           </table>
       <h2></h2>
       <div align="center">
       <p>Add Users</p>
-      <button>Add me</button>
+      <button type="submit" >Add me</button>
+      </form>
       </div>
       <div align="center">
       <p>Get Users</p>
