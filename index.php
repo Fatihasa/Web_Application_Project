@@ -21,7 +21,7 @@
               <label for="name">Name (5 to 15 characters):</label>
               <form action="add_user.php" method="POST">
            <input type="text" id="name" name="user_name_input" required
-          minlength="4" maxlength="5" size="20">
+           placeholder="name">
           </div>
               </tr>
           </table>
