@@ -47,12 +47,11 @@ body {
     </form>
   </div>
   <div align="center">
-    <h3>Show the Users Lists</h3>
-    <ul>
-      <li>User1</li>
-      <li>User2</li>
-  </div>
-  </ul>
+    <h3>Show the Users Lists
+      
+    </h3>
+</div>
+  
 
   <?php
 
