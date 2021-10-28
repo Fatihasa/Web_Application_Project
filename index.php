@@ -47,9 +47,8 @@ body {
     </form>
   </div>
   <div align="center">
-    <h3>Show the Users Lists
-      
-    </h3>
+    <h3>Show the Users Lists</h3>
+    
 </div>
   
 
@@ -70,9 +69,11 @@ body {
       while($rows=mysqli_fetch_assoc($result)){
       
       ?>
+      <div align="center">
         <tr>
           <?php echo $rows['user_name']; ?>
         </tr>
+      </div>
     <?php
       }
 
