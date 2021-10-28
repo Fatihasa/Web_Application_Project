@@ -13,6 +13,8 @@
         }
       </style>
     </head>
+    <h2>
+      
      <body>
       <div align="center"><p>Web Application Development</p> </div>
 
@@ -26,7 +28,7 @@
           </div>
               </tr>
           </table>
-      <h2></h2>
+      </h2>
       
     </tr>
   </table>
